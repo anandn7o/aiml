@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crefed | Premium Video Editing Services</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#home">Crefed</a>
+        <nav class="nav-links">
+          <a href="#services">Services</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#team">Meet Our Team</a>
+          <a href="#contact" class="btn btn-small">Start Project</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-grid">
+          <div class="hero-content reveal">
+            <p class="eyebrow">Video Editing Service Platform</p>
+            <h1>Turn Raw Footage into Cinematic Stories with <span>Crefed</span></h1>
+            <p class="hero-copy">
+              Upload your raw video, share your vision, and let our expert editors craft premium,
+              scroll-stopping edits for reels, YouTube, ads, and brand films.
+            </p>
+            <div class="hero-actions">
+              <a href="#upload" class="btn">Upload Your Video</a>
+              <a href="#portfolio" class="btn btn-ghost">Watch Portfolio</a>
+            </div>
+          </div>
+          <div class="hero-card reveal">
+            <h2>Fast Brief → Expert Edit → Final Delivery</h2>
+            <ul>
+              <li>🎬 Dedicated editor matched to your style</li>
+              <li>⚡ 48-hour first draft delivery</li>
+              <li>🎨 Motion graphics, color grading & sound polish</li>
+              <li>🔁 Collaborative revisions until perfect</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="services">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">What We Do</p>
+            <h2>Creative Editing Services for Every Platform</h2>
+          </div>
+          <div class="card-grid">
+            <article class="service-card reveal">
+              <h3>Social Media Edits</h3>
+              <p>High-retention reels, TikToks, and shorts with hooks, captions, and transitions.</p>
+            </article>
+            <article class="service-card reveal">
+              <h3>YouTube & Podcast</h3>
+              <p>Long-form storytelling with pacing, B-roll, sound design, and brand consistency.</p>
+            </article>
+            <article class="service-card reveal">
+              <h3>Commercial & Brand Ads</h3>
+              <p>Polished promo videos that communicate your message with premium visual impact.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section upload" id="upload">
+        <div class="container upload-wrap reveal">
+          <div>
+            <p class="eyebrow">Upload Raw Video</p>
+            <h2>Share your clips and let our experts do the magic.</h2>
+            <p>
+              Use the form to send your files, preferred style, and deadline. We will assign your
+              project to the perfect editor and begin right away.
+            </p>
+          </div>
+          <form class="upload-form" id="contact">
+            <label>
+              Full Name
+              <input type="text" placeholder="Enter your name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              Upload Raw Video
+              <input type="file" accept="video/*" />
+            </label>
+            <label>
+              Project Notes
+              <textarea rows="4" placeholder="Tell us your edit style, references, and deadline"></textarea>
+            </label>
+            <button type="submit" class="btn">Submit Project</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="section" id="portfolio">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Portfolio</p>
+            <h2>Our Edited Video Showcase</h2>
+          </div>
+          <div class="portfolio-grid">
+            <article class="portfolio-card reveal">
+              <iframe src="https://www.youtube.com/embed/ysz5S6PUM-U" title="Portfolio video 1" allowfullscreen></iframe>
+              <h3>Luxury Brand Promo</h3>
+            </article>
+            <article class="portfolio-card reveal">
+              <iframe src="https://www.youtube.com/embed/jNQXAC9IVRw" title="Portfolio video 2" allowfullscreen></iframe>
+              <h3>Creator Reel Editing</h3>
+            </article>
+            <article class="portfolio-card reveal">
+              <iframe src="https://www.youtube.com/embed/kXYiU_JCYtU" title="Portfolio video 3" allowfullscreen></iframe>
+              <h3>YouTube Story Cut</h3>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="team">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Meet Our Team</p>
+            <h2>Creative minds behind every frame</h2>
+          </div>
+          <div class="team-grid">
+            <article class="team-card reveal">
+              <h3>Aryan Mehta</h3>
+              <p>Lead Video Editor</p>
+              <span>10+ years in cinematic and brand storytelling.</span>
+            </article>
+            <article class="team-card reveal">
+              <h3>Sofia Khan</h3>
+              <p>Motion Graphics Artist</p>
+              <span>Specialist in dynamic typography and motion design.</span>
+            </article>
+            <article class="team-card reveal">
+              <h3>Leo Fernandes</h3>
+              <p>Colorist & Sound Finisher</p>
+              <span>Delivers punchy color grades and immersive audio.</span>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Crefed. Crafted for creators, brands, and storytellers.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
